@@ -1,0 +1,66 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+/* to change */
+img {
+    width: 30%;
+    /* border: solid green 2px; */
+}
+#headerContainer{
+    /* border: blue 4px solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    /* border: solid red 2px; */
+    width: 500px;
+    text-align: center;
+}
+#navContainer {
+    /* border: solid orange 3px; */
+    display: flex;
+    justify-content: center;
+}
+nav {
+    /* border: solid green 2px; */
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+a {
+    /* border: black solid 2px; */
+}
+#main {
+    /* border: solid 4px rgb(26, 192, 32); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textContent {
+    /* border: solid 3px salmon; */
+    width: 60%;
+}
+#mainImage{
+    /* border: solid purple 2px; */
+    width: 50%;
+}
+#cardContainer {
+    /* border: solid pink 3px; */
+    display: flex;
+}
+.card {
+    /* border: solid blue 3px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card img {
+    width: 100%;
+}
